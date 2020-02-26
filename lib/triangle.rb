@@ -8,12 +8,12 @@ class Triangle
     @array.sort
   end
   def isc(sort)
-    if sort[1] == sort[0]|| sort[2]==sort[1]
+    if sort[1] == sort[0]|| sort[2]==sort[1]  
       return "true"
     else
       return "false"
   end
-
+  
   class TriangleError < StandardError
     # triangle error code
   end
