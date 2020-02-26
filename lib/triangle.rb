@@ -2,7 +2,7 @@ require 'pry'
 class Triangle
 
   def initialize(a,b,c)
-  @array = [a,b,c]
+  @array = [a,b,c].sort
   end
   
   def isc
