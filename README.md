@@ -30,13 +30,17 @@
 ```ruby
 # lib/triangle.rb
 
-class Triangle
-  # triangle code
+class Triangle a , b , c
+  sortedArray = [a,b,c].sort
+  binding.pry
 
   class TriangleError < StandardError
     # triangle error code
   end
 end
+
+puts Triangle(1,1,2)
+
 ```
 
 ## Hint
