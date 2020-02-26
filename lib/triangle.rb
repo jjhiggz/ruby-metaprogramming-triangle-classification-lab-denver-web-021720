@@ -17,4 +17,6 @@ class Triangle
 end
 
 a = Triangle.new(1,1,1)
+b = Triangle.new(1,2,2)
+c = Triangle.new(1,2,99999)
 binding.pry
