@@ -7,7 +7,7 @@ class Triangle
   def sort
     @array.sort
   end
-  def isc(sort)
+  def isc
     if sort[1] == sort[0]|| sort[2]==sort[1]
       return "true"
     else
