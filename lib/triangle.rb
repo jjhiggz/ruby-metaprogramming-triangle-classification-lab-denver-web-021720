@@ -6,12 +6,9 @@ class Triangle
   end
 
   def isc
-    if @array[1] == @array[0]|| @array[2]==@array[1]
-      return "true"
-    else
-      return "false"
+    if @array[1] == @array[0]|| @array[2]==@array[1] ? true : false
+    
     end
-  end
 
   class TriangleError < StandardError
     # triangle error code
