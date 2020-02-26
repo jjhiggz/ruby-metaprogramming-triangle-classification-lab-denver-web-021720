@@ -4,9 +4,7 @@ class Triangle
   def initialize(a,b,c)
   @array = [a,b,c]
   end
-  def sort
-    @array.sort
-  end
+  
   def isc
     if sort[1] == sort[0]|| sort[2]==sort[1]
       return "true"
