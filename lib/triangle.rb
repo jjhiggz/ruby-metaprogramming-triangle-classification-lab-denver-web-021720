@@ -12,6 +12,7 @@ class Triangle
       return "true"
     else
       return "false"
+    end
   end
   
   class TriangleError < StandardError
