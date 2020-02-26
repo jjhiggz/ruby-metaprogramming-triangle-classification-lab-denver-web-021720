@@ -7,7 +7,7 @@ class Triangle
 
   def isc
     if @array[1] == @array[0]|| @array[2]==@array[1] ? true : false
-    
+
     end
 
   class TriangleError < StandardError
